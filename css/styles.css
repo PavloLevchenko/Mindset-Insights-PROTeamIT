@@ -196,3 +196,8 @@ p {
 .logo-footer > span {
   color: var(--primary-white-color);
 }
+
+.list-4 {
+    margin: 20px;
+    display: flex;
+}
