@@ -145,12 +145,12 @@ p {
   padding: 10px 15px;
 }
 
-.td1 {
+.td-first {
   width: 40%;
   padding: 10px 15px;
 }
 
-.td2 {
+.td-second {
   width: 60%;
   padding: 10px 15px;
 }
@@ -169,7 +169,6 @@ p {
 .section-title {
   margin-top: 0;
   margin-bottom: 50px;
-
   color: var(--common-title-color);
   font-weight: 700;
   line-height: 1.17;
@@ -223,6 +222,12 @@ p {
 .link-footer:focus {
   color: var(--accent-color);
 }
+
 .logo-footer > span {
   color: var(--primary-white-color);
+}
+
+.list-4 {
+  margin: 20px;
+  display: flex;
 }
