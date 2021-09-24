@@ -126,7 +126,7 @@ p {
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
-  text-align: center;
+  text-align: left;
   color: var(--primary-black-color);
   font-weight: 900;
   font-size: 44px;
@@ -134,6 +134,36 @@ p {
   letter-spacing: 0.06em;
 }
 
+.table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tr {
+  width: 20%;
+  padding: 10px 15px;
+}
+
+.td1 {
+  width: 40%;
+  padding: 10px 15px;
+}
+
+.td2 {
+  width: 60%;
+  padding: 10px 15px;
+}
+.button {
+  background-color: #2196f3;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
 /* Section */
 
 .section-title {
