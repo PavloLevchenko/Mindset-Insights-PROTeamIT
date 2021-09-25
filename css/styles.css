@@ -36,8 +36,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 15px;
 }
 
 .container.flex {
@@ -168,7 +167,8 @@ p {
 
 .section-title {
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  
   color: var(--common-title-color);
   font-weight: 700;
   line-height: 1.17;
@@ -212,6 +212,7 @@ p {
   display: flex;
   justify-content: center;
 }
+
 
 .section .list .item {
   width: 270px;
