@@ -125,7 +125,7 @@ p {
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
-  text-align: center;
+  text-align: left;
   color: var(--primary-black-color);
   font-weight: 900;
   font-size: 44px;
@@ -133,16 +133,68 @@ p {
   letter-spacing: 0.06em;
 }
 
+.table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tr {
+  width: 20%;
+  padding: 10px 15px;
+}
+
+.td-first {
+  width: 40%;
+  padding: 10px 15px;
+}
+
+.td-second {
+  width: 60%;
+  padding: 10px 15px;
+}
+.button {
+  background-color: #2196f3;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
 /* Section */
 
 .section-title {
   margin-top: 0;
   margin-bottom: 20px;
-
+  
   color: var(--common-title-color);
   font-weight: 700;
   line-height: 1.17;
   text-align: center;
+}
+
+.section-content {
+  display: flex;
+  justify-content: center;
+}
+
+.section-content-list-one {
+  margin: 20px;
+  display: flex;
+  padding-left: 40px;
+  font-size: 18px;
+  justify-content: center;
+}
+
+.section-content-list {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.section-content-item {
+  list-style-type: none;
 }
 
 .section {
@@ -151,6 +203,11 @@ p {
   padding: 0;
 }
 
+.section-chapter-one {
+  background-color: #fafafa;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
 .section .list {
   display: flex;
   justify-content: center;
@@ -163,6 +220,19 @@ p {
 
 .section .item + .item {
   margin-left: 30px;
+}
+
+/* Chapter one */
+
+.text-chapter-one {
+  margin: 0;
+  font-size: 18px;
+}
+
+.img-chapter-one {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Footer */
@@ -179,11 +249,12 @@ p {
 .link-footer:focus {
   color: var(--accent-color);
 }
+
 .logo-footer > span {
   color: var(--primary-white-color);
 }
 
 .list-4 {
-    margin: 20px;
-    display: flex;
+  margin: 20px;
+  display: flex;
 }
