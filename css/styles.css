@@ -32,6 +32,12 @@ header {
   list-style: none;
 }
 
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -134,26 +140,13 @@ p {
   letter-spacing: 0.06em;
 }
 
-.table {
-  table-layout: fixed;
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.tr {
-  width: 20%;
+.book-cover {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
   padding: 10px 15px;
 }
 
-.td-first {
-  width: 40%;
-  padding: 10px 15px;
-}
-
-.td-second {
-  width: 60%;
-  padding: 10px 15px;
-}
 .button {
   background-color: #2196f3;
   border: none;
@@ -183,21 +176,13 @@ p {
   justify-content: center;
 }
 
-.section-content-list-one {
+.section-content-list {
   margin: 20px;
   display: flex;
   padding-left: 40px;
   font-size: 18px;
   justify-content: center;
-}
-
-.section-content-list {
-  margin-left: 0;
-  padding-left: 0;
-}
-
-.section-content-item {
-  list-style-type: none;
+  list-style: none;
 }
 
 .section {
@@ -210,10 +195,6 @@ p {
   background-color: #fafafa;
   margin-top: 20px;
   margin-bottom: 0;
-}
-.section .list {
-  display: flex;
-  justify-content: center;
 }
 
 .section .list .item {
@@ -237,34 +218,12 @@ p {
   margin-right: auto;
 }
 
-/* Footer */
-
-.footer {
-  background-color: var(--footer-color);
-}
-
-.link-footer {
-  color: var(--footer-hyperlink-color);
-}
-
-.link-footer:hover,
-.link-footer:focus {
-  color: var(--accent-color);
-}
-
-.logo-footer > span {
-  color: var(--primary-white-color);
-}
-
-.list-4 {
-  margin: 20px;
-  display: flex;
-}
-
 /* Chapter3 */
+
 .item-chapter3 {
   width: 300px;
   margin-left: 30px;
+  border-top: 7px solid rgb(230, 96, 88);
 }
 
 .tittle-chapter3-1 {
@@ -319,13 +278,53 @@ p {
 }
 
 .section-title-chapter3 {
-  font-size: 27px;
   color: #000000;
-  text-align: center;
 }
 
 .list-chapter3 {
   display: flex;
   list-style: none;
   padding: 30px 0;
+}
+
+/* Chapter 5 */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.grid h3 {
+	color: var(--primary-black-color);
+}
+
+/* Chapter 6 */
+
+.section-content-item{
+  padding: 0px 10px;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--footer-color);
+}
+
+.link-footer {
+  color: var(--footer-hyperlink-color);
+}
+
+.link-footer:hover,
+.link-footer:focus {
+  color: var(--accent-color);
+}
+
+.logo-footer > span {
+  color: var(--primary-white-color);
+}
+
+.list-4 {
+  margin: 20px;
+  display: flex;
 }
