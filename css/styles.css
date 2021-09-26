@@ -152,7 +152,7 @@ p {
 .book-cover {
   display: flex;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
   padding: 10px 15px;
 }
 
@@ -202,7 +202,7 @@ p {
 
 .section-chapter-one {
   background-color: #fafafa;
-  margin-top: 20px;
+  margin-top: 0;
   margin-bottom: 0;
 }
 
@@ -306,13 +306,17 @@ p {
 }
 
 .grid h3 {
-	color: var(--primary-black-color);
+  color: var(--primary-black-color);
 }
 
 /* Chapter 6 */
 
-.section-content-item{
+.section-content-item {
   padding: 0px 10px;
+}
+
+.tfont {
+  font-size: 18px;
 }
 
 /* Footer */
