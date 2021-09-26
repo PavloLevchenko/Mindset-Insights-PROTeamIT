@@ -63,6 +63,15 @@ p {
   margin: 0;
 }
 
+.button-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: inline-block;
+  font-size: 40px;
+  cursor: pointer;
+}
+
 /* Logo */
 
 .logo {
