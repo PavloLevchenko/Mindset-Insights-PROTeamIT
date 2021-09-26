@@ -237,6 +237,18 @@ p {
   margin-right: auto;
 }
 
+/* Chapter 5 */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.grid h3 {
+	color: var(--primary-black-color);
+}
+
 /* Footer */
 
 .footer {
