@@ -313,6 +313,10 @@ p {
   padding: 0px 10px;
 }
 
+.th-left{
+  text-align: left;
+}
+
 /* Footer */
 
 .footer {
