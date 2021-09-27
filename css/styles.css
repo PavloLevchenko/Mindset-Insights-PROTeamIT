@@ -6,6 +6,7 @@
   --primary-black-color: #000000;
   --primary-white-color: #ffffff;
   --common-title-color: #212121;
+  --primary-section-color:#fafafa;
   --footer-color: #2f303a;
   --footer-hyperlink-color: rgba(255, 255, 255, 0.6);
 }
@@ -173,16 +174,18 @@ p {
 .section-title {
   margin-top: 0;
   margin-bottom: 20px;
-
   color: var(--common-title-color);
   font-weight: 700;
   line-height: 1.17;
-  text-align: center;
 }
 
 .section-content {
   display: flex;
   justify-content: center;
+}
+
+.content-title{
+  text-align: center;
 }
 
 .section-content-list {
@@ -194,15 +197,15 @@ p {
 }
 
 .section {
-  background-color: var(--primary-white-color);
+  background-color: var(--primary-section-color);
   margin-top: 0;
   padding: 0;
+  text-align: center;
 }
 
-.section-chapter-one {
-  background-color: #fafafa;
-  margin-top: 0;
-  margin-bottom: 0;
+.section ol,
+.section li{
+  text-align: left;
 }
 
 .section .list .item {
@@ -219,7 +222,7 @@ p {
   margin: 0;
 }
 
-.img-chapter-one {
+.img-chapter {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -284,7 +287,6 @@ p {
 
 .section-title-chapter3 {
   color: #000000;
-  text-align: center;
 }
 
 .list-chapter3 {
